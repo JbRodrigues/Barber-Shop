@@ -6,39 +6,43 @@
     box-sizing: border-box;
 }
 
+:root {
+    --lightBrown: #8C3F23;
+    --darkBrown: #261C1C;
+    --lightTextColor: #FCE5C4;
+    --darkTextColor: #BF8069;
+}
+
 @font-face {
     font-family: peakyBlinders;
     src: url(../fonts/Alycidon-Condensed.otf);
 }
 
 body {
-    background-color: #261C1C;
+    background-color: var(--darkBrown);
 }
 
 @media (max-width: 600px) {
 
     .header {
-        background-image: url('../images/pexels-thgusstavo-santana-1813272.jpg');
+        display: flex;
+        flex-direction: column;
+        background-image: url('../images/pexels-nikolaos-dimou-1319459.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        height: 350px;
-        position: relative;
         margin: auto;
-        display: flex;
-        flex-direction: column;
-
     }
 
     .headerText {
         position: relative;
-        margin-left: 2.5rem;
-        color: #D2E3F4;
+        margin-left: 1.5rem;
+        color: #f3f0ee;
     }
 
     #companyName {
-        margin-top: 2.5rem;
-
+        margin-top: 1.5rem;
+        font-size: medium;
     }
 
     #headline {
@@ -47,33 +51,37 @@ body {
         justify-content: flex-start;
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
-        font-size: 32px;
-        height: 50px;
+        font-size: xx-large;
     }
 
     #subheading {
         margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: medium;
     }
 
     #headerButton {
-        margin: auto;
+        margin-top: 1.5rem;
         width: 150px;
         height: 40px;
-        background-color: #8C3F23;
+        background-color: #FFFAF5;
+        color: black;
     }
 
     /*#######################################################################*/
 
     .key-benefits {
-        background-color: #8C3F23;
+        background-color: var(--lightBrown);
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: auto;
+        color: var(--lightTextColor);
     }
 
     #keyBenefitsTitle {
+        font-size: xx-large;
         text-align: center;
-        color: #D9B1A3;
+        color: var(--lightTextColor);
         margin: 1rem;
     }
 
@@ -98,10 +106,123 @@ body {
     .benefitsTitle {
         margin: .3rem;
     }
+
+    .benefitsText {
+        padding: 1rem;
+    }
+
+    /*#######################################################################*/
+
+    .user-rating {
+        background-color: var(--darkBrown);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--darkTextColor);
+    }
+
+    .userRatingIcon {
+        width: 70px;
+        height: 70px;
+        margin: 2rem;
+    }
+
+    .userRatingComment {
+        text-align: justify;
+        margin: 1rem;
+    }
+
+    .userRatingPhoto {
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .rating {
+        display: inline-block;
+        font-size: 0;
+        line-height: 0;
+        margin: 1rem;
+    }
+
+    .star {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+        background-image: url('../icons/star.png');
+        background-size: cover;
+    }
+
+    #userRatingName {
+        font-size: 20px;
+        margin-bottom: .2rem;
+    }
+
+    #userRatingLocation {
+        font-size: 16px;
+
+    }
+
+    /*
+    .star:before {
+        content: "\f005";
+        font-family: FontAwesome;
+        font-size: 16px;
+        color: #ccc;
+        position: absolute;
+    }
+
+    .star:hover:before,
+    .star:hover~.star:before {
+        content: "\f005";
+        font-family: FontAwesome;
+        font-size: 16px;
+        color: #ffcc00;
+        position: absolute;
+    }*/
+
+    /*
+    .carousel {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .slide {
+        width: 100%;
+      }
+
+      .slide img {
+        width: 100%;
+        height: auto;
+      }
+
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      .carousel:hover .slides {
+        animation: slide 5s infinite;
+      }*/
+
+
 }
 
-@media (max-width: 768) {}
+@media (min-width: 601px) and (max-width: 768px) {}
 
-@media (max-width: 992) {}
+@media (min-width: 769px) and (max-width: 992px) {}
 
-@media (max-width: 1200) {}
+@media (min-width: 993px) and (max-width: 1200px) {}
