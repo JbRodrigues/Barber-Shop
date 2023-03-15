@@ -258,14 +258,22 @@ body {
 
     .footerTitle {
         font-size: 24px;
-        margin: 1rem;
+        margin: .5rem;
+        text-align: center;
     }
 
     ul {
         text-align: justify;
         list-style-type: none;
-        font-size: 18px;
+        font-size: 16px;
     }
+
+    li {
+        margin-left: .5rem;
+        padding-bottom: 1rem;
+    }
+
+
 
     .listIcons {
         background-image: url('../icons/phone.png');
@@ -276,7 +284,261 @@ body {
 
 }
 
-@media screen and (min-width: 601px) and (max-width: 768px) {}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        background-image: url('../images/pexels-nikolaos-dimou-1319459.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: auto;
+    }
+
+    .headerText {
+        position: relative;
+        margin-left: 1.5rem;
+        color: #D9B391;
+    }
+
+    #companyName {
+        margin-top: 1.5rem;
+        font-size: medium;
+    }
+
+    #headline {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        font-size: xx-large;
+    }
+
+    #subheading {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: medium;
+    }
+
+    #headerButton {
+        margin-top: 1.5rem;
+        width: 150px;
+        height: 40px;
+        background-color: #FFFAF5;
+        color: black;
+    }
+
+    /*###################################################################*/
+
+    .key-benefits {
+        background-color: var(--lightBrown);
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        color: var(--lightTextColor);
+    }
+
+    #keyBenefitsTitle {
+        font-size: xx-large;
+        text-align: center;
+        color: var(--lightTextColor);
+        margin: 1rem;
+    }
+
+    .benefitsContainer {
+        width: 100%;
+    }
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding: .5rem;
+    }
+
+    .benefits>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .benefitsTitle {
+        margin: .3rem;
+    }
+
+    .benefitsText {
+        padding: 1rem;
+    }
+
+    /*###################################################################*/
+
+    .user-rating {
+        background-color: var(--darkBrown);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--darkTextColor);
+    }
+
+    .userRatingIcon {
+        width: 70px;
+        height: 70px;
+        margin: 1rem;
+    }
+
+    .userRatingComment {
+        margin: 1rem;
+        font-size: 20px;
+    }
+
+    .userRatingPhoto {
+        width: 70px;
+        height: 70px;
+        margin: 1rem;
+    }
+
+    .rating {
+        display: inline-block;
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .star {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin: 0 2px;
+        background-image: url('../icons/star.png');
+        background-size: cover;
+    }
+
+    .userRatingName {
+        font-size: 18px;
+        margin: .5rem;
+    }
+
+    .userRatingLocation {
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+
+    /*###################################################################*/
+
+    .features {
+        background-color: var(--lightBrown);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--lightTextColor);
+    }
+
+    .ftTitle {
+        font-size: 18px;
+        margin: .3rem;
+    }
+
+    .featuresCards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ftCard {
+        width: 150px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: .2rem;
+    }
+
+    .featureImage {
+        width: 100%;
+        height: 150px;
+        margin: .3rem;
+    }
+
+    .featureTitle {
+        font-size: 15px;
+        margin: .5rem;
+    }
+
+    .featureText {
+        font-size: 12px;
+        margin: 1rem;
+        text-align: justify;
+    }
+
+    /*###################################################################*/
+
+    .featureSubSection {
+        background-color: var(--darkBrown);
+        color: var(--darkTextColor);
+        display: flex;
+        align-items: center;
+    }
+
+    .subImage {
+        max-width: 500px;
+        height: 200px;
+        margin: .5rem;
+    }
+
+    .subInfo {
+        margin: 1rem;
+    }
+
+    .subTitle {
+        margin: .5rem .5rem .5rem 0;
+    }
+
+    .subText {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    /*###################################################################*/
+
+
+    .footer {
+        background-color: var(--lightBrown);
+        color: var(--lightTextColor);
+        height: auto;
+    }
+
+    .footerTitle {
+        font-size: 24px;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    ul {
+        text-align: justify;
+        list-style-type: none;
+        font-size: 18px;
+    }
+
+    li {
+        margin-left: .5rem;
+        padding-bottom: 1rem;
+    }
+
+    .listIcons {
+        background-image: url('../icons/phone.png');
+        width: 30px;
+        height: 30px;
+    }
+
+}
 
 @media screen and (min-width: 769px) and (max-width: 992px) {}
 
