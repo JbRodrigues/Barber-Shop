@@ -210,7 +210,7 @@ body {
     }
 
     .featureImage {
-        width: 100%;
+        width: 200px;
         height: 150px;
         margin: .3rem;
     }
@@ -235,8 +235,8 @@ body {
     }
 
     .subImage {
-        max-width: 500px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin: .5rem;
     }
 
@@ -882,7 +882,6 @@ body {
     #keyBenefitsTitle {
         font-size: 44px;
         color: var(--lightTextColor);
-        margin-left: -4.5rem;
     }
 
     .benefitsContainer {
@@ -897,7 +896,6 @@ body {
         justify-content: center;
         align-items: center;
         text-align: justify;
-        padding: .5rem;
     }
 
     .benefits>img {
