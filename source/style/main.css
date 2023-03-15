@@ -216,6 +216,38 @@ body {
         text-align: justify;
     }
 
+    /*###################################################################*/
+
+    .featureSubSection {
+        background-color: var(--darkBrown);
+        color: var(--darkTextColor);
+        display: flex;
+       align-items: center;
+    }
+
+    .subImage {
+        max-width: 500px;
+        height: 200px;
+        margin: .5rem;
+    }
+
+    .subInfo{
+        margin: 1rem;
+    }
+
+    .subTitle{
+        margin: 1rem;
+    }
+
+    .subText{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    /*###################################################################*/
+
+
+
 }
 
 @media (min-width: 601px) and (max-width: 768px) {}
