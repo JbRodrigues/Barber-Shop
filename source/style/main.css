@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --lightBrown: #8C3F23;
     --darkBrown: #261C1C;
@@ -22,7 +26,7 @@ body {
     background-color: var(--darkBrown);
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .header {
         display: flex;
@@ -37,7 +41,7 @@ body {
     .headerText {
         position: relative;
         margin-left: 1.5rem;
-        color: #f3f0ee;
+        color: #D9B391;
     }
 
     #companyName {
@@ -222,7 +226,7 @@ body {
         background-color: var(--darkBrown);
         color: var(--darkTextColor);
         display: flex;
-       align-items: center;
+        align-items: center;
     }
 
     .subImage {
@@ -231,27 +235,49 @@ body {
         margin: .5rem;
     }
 
-    .subInfo{
+    .subInfo {
         margin: 1rem;
     }
 
-    .subTitle{
-        margin: 1rem;
+    .subTitle {
+        margin: .5rem .5rem .5rem 0;
     }
 
-    .subText{
+    .subText {
         font-size: 14px;
         text-align: justify;
     }
 
     /*###################################################################*/
 
+    .footer {
+        background-color: var(--lightBrown);
+        color: var(--lightTextColor);
+        height: auto;
+    }
+
+    .footerTitle {
+        font-size: 24px;
+        margin: 1rem;
+    }
+
+    ul {
+        text-align: justify;
+        list-style-type: none;
+        font-size: 18px;
+    }
+
+    .listIcons {
+        background-image: url('../icons/phone.png');
+        width: 30px;
+        height: 30px;
+    }
 
 
 }
 
-@media (min-width: 601px) and (max-width: 768px) {}
+@media screen and (min-width: 601px) and (max-width: 768px) {}
 
-@media (min-width: 769px) and (max-width: 992px) {}
+@media screen and (min-width: 769px) and (max-width: 992px) {}
 
-@media (min-width: 993px) and (max-width: 1200px) {}
+@media screen and (min-width: 993px) and (max-width: 1200px) {}
