@@ -140,7 +140,7 @@ body {
 
     .userRatingComment {
         margin: 1rem;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .userRatingPhoto {
@@ -209,6 +209,10 @@ body {
         border-bottom: 1px solid var(--darkBrown);
     }
 
+    .ftCard:last-child {
+        border-bottom: 0;
+    }
+
     .featureImage {
         width: 200px;
         height: 150px;
@@ -256,12 +260,13 @@ body {
     }
 
     /*###################################################################*/
-
-    .footer {
+    .footerSection {
+        display: flex;
         background-color: var(--lightBrown);
         color: var(--lightTextColor);
         height: auto;
     }
+
 
     .footerTitle {
         font-size: 24px;
@@ -280,15 +285,17 @@ body {
         padding-bottom: 1rem;
     }
 
-
-
     .listIcons {
         background-image: url('../icons/phone.png');
         width: 30px;
         height: 30px;
     }
 
-
+    .imgFooter {
+        width: 150px;
+        height: 150px;
+        margin: 1rem;
+    }
 }
 
 @media screen and (min-width: 601px) {
@@ -785,8 +792,9 @@ body {
 
     /*###################################################################*/
 
-
-    .footer {
+    .footerSection {
+        display: flex;
+        justify-content: space-around;
         background-color: var(--lightBrown);
         color: var(--lightTextColor);
         height: auto;
@@ -813,6 +821,12 @@ body {
         background-image: url('../icons/phone.png');
         width: 30px;
         height: 30px;
+    }
+
+    .imgFooter {
+        height: 200px;
+        width: 200px;
+        margin: 1rem;
     }
 }
 
