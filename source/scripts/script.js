@@ -12,3 +12,8 @@ function showSlide() {
 }
 
 showSlide();
+
+ScrollReveal({ reset: true });
+ScrollReveal().reveal('.benefitsTitle');
+ScrollReveal().reveal('.benefitsText');
+ScrollReveal().reveal('.benefitsText', { delay: 500 });
