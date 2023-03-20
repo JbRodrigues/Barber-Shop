@@ -41,7 +41,7 @@ body {
         background-repeat: no-repeat;
         background-position: center center;
         margin: auto;
-        height: 300px;
+        height: 100vh;
     }
 
     .headerText {
@@ -95,6 +95,7 @@ body {
         text-align: center;
         color: var(--lightTextColor);
         margin: 1rem;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .benefitsContainer {
@@ -222,6 +223,7 @@ body {
     .ftTitle {
         font-size: 24px;
         margin: 1rem;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .featuresCards {
@@ -253,8 +255,9 @@ body {
     }
 
     .featureTitle {
-        font-size: 18px;
+        font-size: xx-large;
         margin: .5rem;
+
     }
 
     .featureText {
@@ -305,6 +308,7 @@ body {
         font-size: 24px;
         margin: .5rem;
         text-align: center;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     ul {
@@ -328,6 +332,7 @@ body {
         width: 150px;
         height: 150px;
         margin: 1rem;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     }
 }
 
@@ -346,7 +351,7 @@ body {
         background-repeat: no-repeat;
         background-position: center center;
         margin: auto;
-        height: 300px;
+        height: 100vh;
     }
 
     .headerText {
@@ -380,6 +385,7 @@ body {
         text-align: center;
         color: var(--lightTextColor);
         margin: 1rem;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .benefitsContainer {
@@ -506,6 +512,7 @@ body {
     .ftTitle {
         font-size: 32px;
         margin: 1rem .3rem;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .featuresCards {
@@ -586,6 +593,7 @@ body {
         font-size: 24px;
         margin: 1rem;
         text-align: center;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     ul {
@@ -609,6 +617,7 @@ body {
         margin: 1rem;
         width: 140px;
         height: 140px;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     }
 
 }
@@ -627,7 +636,7 @@ body {
         background-repeat: no-repeat;
         background-position: center center;
         margin: auto;
-        height: 400px;
+        height: 100vh;
     }
 
     .headerText {
@@ -785,6 +794,7 @@ body {
     .ftTitle {
         font-size: 18px;
         margin: .3rem;
+        font-size: xx-large;
     }
 
     .featuresCards {
@@ -816,7 +826,7 @@ body {
     }
 
     .featureText {
-        font-size: 14px;
+        font-size: 16px;
         margin: 1rem;
         text-align: justify;
     }
@@ -888,6 +898,8 @@ body {
         height: 200px;
         width: 200px;
         margin: 1rem;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
     }
 }
 
@@ -905,7 +917,7 @@ body {
         background-repeat: no-repeat;
         align-items: center;
         justify-content: center;
-        height: 400px;
+        height: 100vh;
     }
 
     .headerText {
@@ -939,6 +951,7 @@ body {
     #keyBenefitsTitle {
         font-size: 44px;
         color: var(--lightTextColor);
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .benefitsContainer {
@@ -960,43 +973,10 @@ body {
         height: 60px;
     }
 
-    .slideInDown {
-        -webkit-animation-name: slideInDown;
-        animation-name: slideInDown;
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-    }
-
-    @-webkit-keyframes slideInDown {
-        0% {
-            -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-            visibility: visible;
-        }
-
-        100% {
-            -webkit-transform: translateY(0);
-            transform: translateY(0);
-        }
-    }
-
-    @keyframes slideInDown {
-        0% {
-            -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-            visibility: visible;
-        }
-
-        100% {
-            -webkit-transform: translateY(0);
-            transform: translateY(0);
-        }
-    }
 
     .benefitsTitle {
         margin: 1rem;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .benefitsText {
@@ -1004,40 +984,6 @@ body {
         font-size: 18px;
     }
 
-    .slideInUp {
-        -webkit-animation-name: slideInUp;
-        animation-name: slideInUp;
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-    }
-
-    @-webkit-keyframes slideInUp {
-        0% {
-            -webkit-transform: translateY(100%);
-            transform: translateY(100%);
-            visibility: visible;
-        }
-
-        100% {
-            -webkit-transform: translateY(0);
-            transform: translateY(0);
-        }
-    }
-
-    @keyframes slideInUp {
-        0% {
-            -webkit-transform: translateY(100%);
-            transform: translateY(100%);
-            visibility: visible;
-        }
-
-        100% {
-            -webkit-transform: translateY(0);
-            transform: translateY(0);
-        }
-    }
 
     /*###################################################################*/
 
@@ -1137,6 +1083,7 @@ body {
     .ftTitle {
         font-size: 38px;
         margin: 1rem;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .featuresCards {
@@ -1165,6 +1112,7 @@ body {
     .featureTitle {
         font-size: 24px;
         margin: 1rem;
+        text-shadow: -5px 0px 8px var(--darkBrown);
     }
 
     .featureText {
@@ -1229,6 +1177,7 @@ body {
         font-size: 24px;
         margin: 1rem;
         text-align: center;
+        text-shadow: -5px 0px 8px var(--darkTextColor);
     }
 
     ul {

@@ -16,4 +16,7 @@ showSlide();
 ScrollReveal({ reset: true });
 ScrollReveal().reveal('.benefitsTitle');
 ScrollReveal().reveal('.benefitsText');
-ScrollReveal().reveal('.benefitsText', { delay: 500 });
+ScrollReveal().reveal('.benefitsText', { delay: 300 });
+ScrollReveal().reveal('.subText', { delay: 300 });
+ScrollReveal().reveal('.featureText', { delay: 300 });
+
